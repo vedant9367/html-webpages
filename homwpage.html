@@ -6,7 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moso Interior</title>
     <link rel="stylesheet" href="css/newstyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
 
 </head>
 
@@ -73,7 +85,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div>
+                                    <div class="form-submit">
                                         <button type="submit" class="form-btn">Search</button>
                                     </div>
                             </form>
@@ -150,7 +162,7 @@
             <h2 class="shop-h2"> <span>Interior</span> Products</span></h2>
 
 
-            <div class="shop-gallery1">
+            <div class="shop-gallery">
                 <div class="shop-img-wrap">
                     <a href="">
                         <img src="image/bathtub.jpg" alt="" width="750" class="shop-image1">
@@ -197,7 +209,7 @@
                 </div>
             </div>
 
-            <div class="shop-gallery2">
+            <div class="shop-gallery">
                 <div class="shop-img-wrap">
                     <a href="">
                         <img src="image/green sofa.jpg" alt="" width="750" class="shop-image1">
@@ -275,17 +287,340 @@
 
             </div>
 
+            <div class="shop-gallery">
+                <ul class="shop-page">
+                    <li class="shop-pageitem">
+                        <a href="" class="shop-pagelink"><span>«</span></a>
+                    </li>
+                    <li class="shop-pageitem ">
+                        <a href="" class="shop-pagelink shop-pageactive">1</a>
+                    </li>
+                    <li class="shop-pageitem">
+                        <a href="" class="shop-pagelink">2</a>
+                    </li>
+                    <li class="shop-pageitem">
+                        <a href="" class="shop-pagelink">3</a>
+                    </li>
+                    <li class="shop-pageitem">
+                        <a href="" class="shop-pagelink">4</a>
+                    </li>
+                    <li class="shop-pageitem">
+                        <a href="" class="shop-pagelink">5</a>
+                    </li>
+                    <li class="shop-pageitem">
+                        <a href="" class="shop-pagelink"><span>»</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review -->
+
+    <section class="rvw-bg">
+        <div class="rvw-contain">
+            <small class="rvw-small">Happy customers.</small>
+            <h2 class="rvw-h2">Reviews</h2>
+            <div class="rvw-row owl-carousel">
+
+                <div class="rvw-section">
+                    <div class="rvw-item">
+                        <h4>Please recommend Tooplate website to your friends.</h4>
+                    </div>
+                    <div class="rvw-bottom">
+                        <img src="image/review1.jpg" alt="" width="50px" height="50px">
+                        <div class="rvw-bottomtext">
+                            <p>
+                                <strong>Helen</strong>,<small>Client</small>
+                            </p>
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rvw-section">
+                    <div class="rvw-item">
+                        <h4>This Bootstrap 5 layout is free to use for your website.</h4>
+                    </div>
+                    <div class="rvw-bottom">
+                        <img src="image/review2.jpg" alt="" width="50px" height="50px">
+                        <div class="rvw-bottomtext">
+                            <p>
+                                <strong>Bill</strong>,<small>Designer</small>
+                            </p>
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star-o "></span>
+                                <span class="fa fa-star-o "></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rvw-section">
+                    <div class="rvw-item">
+                        <h4>Thank you for visiting Tooplate to download free templates.</h4>
+                    </div>
+                    <div class="rvw-bottom">
+                        <img src="image/review3.jpg" alt="" width="50px" height="50px">
+                        <div class="rvw-bottomtext">
+                            <p>
+                                <strong>Susan</strong>,<small>Boss</small>
+                            </p>
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
+                <div class="rvw-section">
+                    <div class="rvw-item">
+                        <h4>Explore more HTML Templates to download for your website.</h4>
+                    </div>
+                    <div class="rvw-bottom">
+                        <img src="image/review4.jpg" alt="" width="50px" height="50px">
+                        <div class="rvw-bottomtext">
+                            <p>
+                                <strong>Sandy</strong>,<small>CEO</small>
+                            </p>
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="rvw-section">
+                    <div class="rvw-item">
+                        <h4>Explore more HTML Templates to download for your website.</h4>
+                    </div>
+                    <div class="rvw-bottom">
+                        <img src="image/review5.jpg" alt="" width="50px" height="50px">
+                        <div class="rvw-bottomtext">
+                            <p>
+                                <strong>Jack</strong>,<small>Partner</small>
+                            </p>
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star-o "></span>
+                                <span class="fa fa-star-o "></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <div class="rvw-btncontain">
+                <button type="button" class="rvw-btn1 owl-prev">
+                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
 
+                </button>
+                <button type="button" class="rvw-btn1 owl-next">
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
+                </button>
 
+            </div>
+            <div class="rvw-footer">
+                <p>Write some reviews on </p>
+                <a href="" class="rvw-fb">
+                    <i class="fab fa-facebook"></i>
+                    facebook
+                </a>
+            </div>
         </div>
 
     </section>
 
+    <!-- Contact -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+        <path fill="#f9f9f9" fill-opacity="1"
+            d="M0,96L40,117.3C80,139,160,181,240,186.7C320,192,400,160,480,149.3C560,139,640,149,720,176C800,203,880,245,960,250.7C1040,256,1120,224,1200,229.3C1280,235,1360,277,1400,298.7L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+
+        </path>
+    </svg>
+    <section class="contact-bg">
+        <div class="contact-contain">
+            <small>Ask anything.</small>
+            <h2>Say Hello</h2>
+            <div class="contact-sec">
+                <form action="" method="post" class="contact-form ">
+                    <div class="contact-name">
+                        <div class="contact-input">
+                            <label for="firstname">First Name</label>
+                            <input type="text" placeholder="Jack" required>
+                        </div>
+                        <div class="contact-input">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" placeholder="Doe" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-input">
+                        <label for="email">Email Address</label>
+                        <input type="text" name="email" pattern="[^ @]@[^ @]" placeholder="Jackdoe@gmail.com"
+                            required>
+                    </div>
+                    <div class="contact-input contact-text">
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="6" placeholder="What can we help you?" required></textarea>
+                    </div>
+                    <div class="contact-btn">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+                <div class="contact-block">
+                    <div class="contact-store">
+                        <h3>Store</h3>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            102 Utah Road, Berlin, Germany
+                        </p>
+                    </div>
+                    <div class="contact-store">
+                        <h3>Contact Info</h3>
+
+                        <div class="contact-tel">
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="tel: 090-080-0760">
+                                090-080-0760
+                            </a>
+
+
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:info@company.com">
+                                info@company.com
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4800.184803804974!2d-0.10174304922518053!3d51.5087879746898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605f6fc62fa3d%3A0xc5a39e7cf4e3a9a4!2sTate%20Modern%20Garden!5e1!3m2!1sen!2smm!4v1679331839559!5m2!1sen!2smm"
+                            frameborder="0" width="100%" height="220" allowfullscreen loading="lazy"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#36363e" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,186.7C320,192,400,160,480,149.3C560,139,640,149,720,176C800,203,880,245,960,250.7C1040,256,1120,224,1200,229.3C1280,235,1360,277,1400,298.7L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    <footer class="foot-bg">
+
+
+        <div class="foot-contain">
+            <div class="footer-text">
+                <div class="footer-text1">
+                    <h3>
+                        <a href="#section1" class="foot-moso">Moso Interior</a>
+                    </h3>
+                    <p>Since 1986, We crafted interior products for better spaces</p>
+                    <p><a href="https://www.tooplate.com/" target="_blank">Web Design: Tooplate</a></p>
+                </div>
+                <div class="footer-text2">
+                    <h3>Store</h3>
+                    <p>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Berlin, Germany
+                    </p>
+                </div>
+                <div class="footer-text3 ">
+                    <h3>Contact Info</h3>
+                    <p class="foot-tel">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel: 090-080-0760">
+                            090-080-0760
+                        </a>
+                    </p>
+
+                    <p class="foot-tel">
+
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:info@company.com">
+                            info@company.com
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="foot-logo">
+                <p>Copyright © Moso Interior 2048</p>
+                <ul>
+                    <li><a href="">
+                            <i class="fa fa-twitter" style="color:#1da1f2; font-size: 25px;"></i>
+                        </a></li>
+                    <li><a href="">
+                            <i class="fab fa-facebook" style="color: #1877f2; font-size: 25px;"></i>
+                        </a></li>
+                    </a></li>
+                    <li><a href="">
+                            <i class="fab fa-instagram" style="color: #c13584; font-size: 25px;"></i>
+                        </a></li>
+                    </a></li>
+                    <li><a href="">
+                            <i class="fab fa-pinterest" style="color: #e60023; font-size: 25px;"></i>
+                        </a></li>
+                    </a></li>
+                    <li><a href="">
+                            <i class="fab fa-whatsapp" style="color: #128c7e; font-size: 25px;"></i>
+                        </a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script>
+        $(".rvw-row").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                items: 1,
+            });
+            $('.owl-next').click(function () {
+                owl.trigger('next.owl.carousel');
+            });
+            $('.owl-prev').click(function () {
+                owl.trigger('prev.owl.carousel');
+            });
+        });
+    </script>
 </body>
 
 </html>
